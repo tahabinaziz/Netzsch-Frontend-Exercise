@@ -28,7 +28,7 @@ import {
 } from "chart.js";
 
 const HomePage = () => {
-
+  const graphColor='#017167'
   const drilldowns = 'Nation'
   const measures = 'Population'
   const [apiData, setApiData] = useState([]);
@@ -120,8 +120,8 @@ const HomePage = () => {
         {
           label: "Bar Chart",
           data: data.map(marks => marks.result),
-          borderColor: "#017167",
-          backgroundColor: '#017167',
+          borderColor: graphColor,
+          backgroundColor: graphColor,
         },
       ],
     });
