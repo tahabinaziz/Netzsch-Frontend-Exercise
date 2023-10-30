@@ -1,8 +1,8 @@
 version: '3.8'
 services:
   app:
-    container_name: frontend
-    image: frontend
+    container_name: frontend_netzsch
+    image: frontend_netzsch
     build: 
       target: development
     ports:
